@@ -19,7 +19,7 @@ This project is a simple command-line based Bank Account Management System imple
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/bank-account-management-system.git
+   git clone https://github.com/professionalman/Bank-Account-Management-System.git
 2. Navigate to the project directory:
    ```bash
    cd bank-account-management-system
