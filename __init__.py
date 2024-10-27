@@ -27,12 +27,18 @@ def run_Program():
 
         while True:
             Continue = input("""
-                Do you want to Continue Yes ot Not           
+                Do you want to Continue Yes or No           
                 """)
-            if Continue.upper() == "YES":
+            if Continue.upper() == "Y" :
                 Condition = True
                 break
-            elif Continue.upper() == "NOT":
+            elif Continue.upper() == "YES" :
+                Condition = True
+                break
+            elif Continue.upper() == "N":
+                Condition = False
+                break
+            elif Continue.upper() == "NO":
                 Condition = False
                 break
             else:
